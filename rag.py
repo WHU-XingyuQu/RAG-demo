@@ -10,7 +10,7 @@ from langchain.chains import ConversationalRetrievalChain
 # 中文输出防乱码
 sys.stdout.reconfigure(encoding='utf-8')
 
-# 设置代理（可选）
+# 设置代理（更换成您的代理）
 os.environ["http_proxy"]  = "http://127.0.0.1:33210"
 os.environ["https_proxy"] = "http://127.0.0.1:33210"
 
